@@ -8,13 +8,40 @@ const prayers = [
   "God, thank You for another day. Guard my heart, guide my words, and keep my mind focused on what is true. Help me carry hope into every room I enter. In Jesus’ name, amen.",
   "Lord Jesus, when I feel stuck, remind me that faith moves. Give me the discipline to pray, the courage to act, and the trust to let You steer the road ahead. Amen.",
   "Father, bless my family, my work, and the people I serve. Let me be dependable, generous, and full of grace. Turn setbacks into lessons and opportunities into ministry. Amen.",
-  "God, help me live beyond what I can see. Replace fear with faith, bitterness with mercy, and hesitation with obedience. May my life point people toward You today. Amen."
+  "God, help me live beyond what I can see. Replace fear with faith, bitterness with mercy, and hesitation with obedience. May my life point people toward You today. Amen.",
+  "Lord, give me a clean heart and a steady spirit. Help me release yesterday, receive Your mercy today, and walk forward with purpose. Amen.",
+  "Father, when plans change, keep my faith anchored. Teach me to trust Your timing and recognize the doors You are opening. Amen.",
+  "Jesus, help me speak life today. Let my words heal, encourage, and point people toward hope rather than fear. Amen.",
+  "Lord, strengthen everyone carrying a burden in silence. Surround them with peace, wise support, and the reminder that they are not forgotten. Amen.",
+  "Father, give me wisdom before I react, humility when I am corrected, and courage when I must stand for what is right. Amen.",
+  "God, bless the work of my hands. Let what I build be honest, useful, generous, and pleasing to You. Amen.",
+  "Lord, protect my mind from comparison. Help me celebrate others while faithfully walking the path You have given me. Amen.",
+  "Father, renew my strength. Where I am tired, carry me; where I am discouraged, remind me of Your faithfulness. Amen.",
+  "Jesus, teach me to forgive as I have been forgiven. Free my heart from resentment and lead me toward peace. Amen.",
+  "Lord, guide every decision I face today. Close the wrong doors clearly and give me peace about the right ones. Amen.",
+  "Father, help me notice the person who feels unseen. Give me the courage to pause, listen, and show them Your love. Amen.",
+  "God, keep me faithful in the small things. Build character in private that can carry responsibility in public. Amen.",
+  "Lord, when fear tells me to stay parked, remind me that obedient faith takes the next step. Lead me and I will follow. Amen.",
+  "Father, bring peace to my home. Help us communicate with patience, forgive quickly, and choose love over pride. Amen.",
+  "Jesus, help me carry my faith beyond Sunday. Let it shape my work, relationships, choices, and service today. Amen.",
+  "Lord, comfort everyone grieving today. Be close in the quiet moments and give them strength for one breath and one step at a time. Amen.",
+  "Father, teach me contentment without complacency. Let me be grateful for today while still growing toward what You have called me to become. Amen.",
+  "God, protect those traveling, working, serving, and caring for others today. Give them safety, wisdom, and endurance. Amen.",
+  "Lord, help me use my time wisely. Remove distractions that drain me and focus my energy on what matters most. Amen.",
+  "Father, replace my need to control everything with trust in Your character. You see what I cannot see. Amen.",
+  "Jesus, give me courage to begin again. Let failure become instruction, not identity, and grace become the ground beneath my feet. Amen.",
+  "Lord, bless our communities. Raise up servants, peacemakers, teachers, and leaders who care for people with integrity. Amen.",
+  "Father, let generosity become part of my lifestyle. Show me what I can give, share, teach, or do for someone else today. Amen.",
+  "God, thank You for Your mercy that meets me every morning. Help me live today with faith, courage, kindness, and purpose. In Jesus’ name, amen."
 ];
 
 const prayerText = document.querySelector('#prayer-text');
 const prayerDate = document.querySelector('#prayer-date');
 const toast = document.querySelector('#toast');
-let prayerIndex = new Date().getDate() % prayers.length;
+const today = new Date();
+const startOfYear = new Date(today.getFullYear(),0,0);
+const dayOfYear = Math.floor((today - startOfYear) / 86400000);
+let prayerIndex = dayOfYear % prayers.length;
 
 function setPrayer(index){
   prayerIndex = (index + prayers.length) % prayers.length;
