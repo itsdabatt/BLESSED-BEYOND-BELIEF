@@ -1,18 +1,16 @@
-BLESSED BEYOND BELIEF — FLAGSHIP WEBSITE V3
+BLESSED BEYOND BELIEF — FLAGSHIP V5
 
-UPLOAD TO GITHUB:
-1. Extract this ZIP on your computer.
-2. Upload index.html, styles.css, script.js, the favicon files, and the entire assets folder.
-3. Do not upload only the ZIP file.
-4. Keep all file names exactly the same.
+This version is a single-file website.
+All logos, shirt images, and the book cover are embedded directly inside index.html.
+That means the images cannot break because of missing folders or incorrect paths.
+
+UPLOAD:
+1. Delete or replace the old website files in your GitHub repository.
+2. Upload index.html from this folder to the repository root.
+3. Keep the file name exactly index.html.
+4. Cloudflare Pages should deploy it automatically.
 
 FORMS:
-Forms use FormSubmit and deliver to rossbusinessinquiries@gmail.com.
-The first live submission may trigger a FormSubmit activation email. Open it and click the activation link once.
-
-DAILY CONTENT:
-The site includes 31 daily prayers that rotate automatically by calendar date.
-The Verse of the Week rotates automatically.
-
-PRODUCT BUTTONS:
-The launch-list buttons send product interest through the same FormSubmit address.
+Forms submit through FormSubmit to rossbusinessinquiries@gmail.com.
+The receiving address is not displayed on the webpage.
+The first submission may require a one-time activation link sent by FormSubmit.
