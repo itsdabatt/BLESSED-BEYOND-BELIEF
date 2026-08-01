@@ -37,7 +37,7 @@ document.querySelectorAll('.product-button').forEach(button=>{
   button.addEventListener('click',()=>{
     const subject = encodeURIComponent(`Blessed Beyond Belief — ${button.dataset.product}`);
     const body = encodeURIComponent(`Please let me know when the ${button.dataset.product} is available.`);
-    window.location.href = `mailto:YOUR-EMAIL-HERE?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:rossbusinessinquiries@gmail.com?subject=${subject}&body=${body}`;
   });
 });
 
@@ -46,7 +46,7 @@ document.querySelector('#contact-form').addEventListener('submit',(event)=>{
   const data = new FormData(event.currentTarget);
   const subject = encodeURIComponent(`Blessed Beyond Belief: ${data.get('reason')}`);
   const body = encodeURIComponent(`Name: ${data.get('name')}\nEmail: ${data.get('email')}\nReason: ${data.get('reason')}\n\n${data.get('message')}`);
-  window.location.href = `mailto:YOUR-EMAIL-HERE?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:rossbusinessinquiries@gmail.com?subject=${subject}&body=${body}`;
 });
 
 const observer = new IntersectionObserver(entries=>{

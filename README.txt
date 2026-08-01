@@ -1,24 +1,18 @@
-BLESSED BEYOND BELIEF — STATIC WEBSITE STARTER
+BLESSED BEYOND BELIEF WEBSITE — UPDATED VERSION
 
-FILES
-- index.html
-- styles.css
-- script.js
-- assets/rugged-logo.png
-- assets/minimal-logo.png
+1. Upload every file and the assets folder to GitHub.
+2. Deploy the repository through Cloudflare Pages.
+3. The contact form prepares an email to rossbusinessinquiries@gmail.com after a visitor completes it.
+4. Replace product buttons with your final print-on-demand store links once the products are live.
+5. Replace the book placeholder copy and purchase button when Pray About It is ready for sale.
 
-BEFORE PUBLISHING
-1. Open script.js.
-2. Replace every instance of YOUR-EMAIL-HERE with your real contact email.
-3. Replace the placeholder book title and text in index.html.
-4. Connect product buttons to your real Spring, Printify, Printful, Shopify, Etsy, or other store links.
-
-CLOUDFLARE PAGES
-1. Upload this folder to a GitHub repository.
-2. In Cloudflare Pages, create a project from that repository.
-3. Framework preset: None.
-4. Build command: leave blank.
-5. Build output directory: /
-6. Deploy.
-
-The site is mobile responsive and requires no build tools.
+Included:
+- Lighter immersive high-tech faith design
+- Rugged and minimal brand logos
+- B³ brand emblem
+- Fearless Faith Collection
+- Both shirt mockups
+- Pray About It book section
+- Daily prayers
+- Contact form and LinkedIn
+- Mobile layout
