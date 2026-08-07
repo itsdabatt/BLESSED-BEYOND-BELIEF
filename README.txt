@@ -1,16 +1,19 @@
-BLESSED BEYOND BELIEF — FLAGSHIP V5
+BLESSED BEYOND BELIEF — FLAGSHIP V6
+UPDATED BOOK COVER VERSION
 
-This version is a single-file website.
-All logos, shirt images, and the book cover are embedded directly inside index.html.
-That means the images cannot break because of missing folders or incorrect paths.
+This version keeps the single-file setup so your website images do not break.
 
-UPLOAD:
-1. Delete or replace the old website files in your GitHub repository.
-2. Upload index.html from this folder to the repository root.
-3. Keep the file name exactly index.html.
-4. Cloudflare Pages should deploy it automatically.
+WHAT CHANGED
+- Corrected Pray About It book cover using the praying-hands design.
+- White/cream title and praying hands for strong readability.
+- Blessed Beyond Belief branding and Faith Over Fear on the cover.
+- Brighter book section.
+- Larger book mockup.
+- All website images remain embedded directly in index.html.
 
-FORMS:
-Forms submit through FormSubmit to rossbusinessinquiries@gmail.com.
-The receiving address is not displayed on the webpage.
-The first submission may require a one-time activation link sent by FormSubmit.
+UPLOAD
+1. Extract this ZIP.
+2. Upload/replace index.html in the ROOT of your GitHub repository.
+3. You do not need an assets folder for this version.
+4. Wait for Cloudflare Pages to redeploy.
+5. Hard refresh with Ctrl + F5.
