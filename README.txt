@@ -1,19 +1,24 @@
-BLESSED BEYOND BELIEF — FLAGSHIP V6
-UPDATED BOOK COVER VERSION
+BLESSED BEYOND BELIEF — FLAGSHIP V8
 
-This version keeps the single-file setup so your website images do not break.
+V8 keeps the corrected V7 book cover and adds a more modern, interactive shopping experience.
 
-WHAT CHANGED
-- Corrected Pray About It book cover using the praying-hands design.
-- White/cream title and praying hands for strong readability.
-- Blessed Beyond Belief branding and Faith Over Fear on the cover.
-- Brighter book section.
-- Larger book mockup.
-- All website images remain embedded directly in index.html.
+NEW:
+- Animated launch marquee
+- Cursor lighting effect on desktop
+- Hero status badge + scroll cue
+- Fearless Faith launch counters
+- Product hover/lift effects
+- Product quick-interest buttons
+- Story cards explaining the lifestyle brand
+- Early-access collection CTA
+- Prayer topic buttons (Strength / Peace / Direction)
+- Animated Verse of the Week progress detail
+- Completely redesigned bottom experience
+- Animated back-to-top button
+- Toast feedback interactions
+- Existing daily prayers, FormSubmit contact/prayer forms, product zoom, and launch list preserved
 
-UPLOAD
-1. Extract this ZIP.
-2. Upload/replace index.html in the ROOT of your GitHub repository.
-3. You do not need an assets folder for this version.
-4. Wait for Cloudflare Pages to redeploy.
-5. Hard refresh with Ctrl + F5.
+UPLOAD:
+Replace the old index.html in your GitHub repository with this one.
+This is still a single-file site with images embedded directly, so image folders are not required.
+After Cloudflare deploys, Ctrl + F5 to hard refresh.
